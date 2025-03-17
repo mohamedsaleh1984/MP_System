@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MPower-NewSystem": {
+      "commandName": "Project",
+      "commandLineArgs": "citibike evening"
+    }
+  }
+}
