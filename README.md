@@ -1,4 +1,4 @@
-#### Goals:
+### Goals:
 This assessment is somewhat large and has many facets to it. There are no must haves
 and you can implement as much as you feel comfortable doing. The goal is to be able to
 assess your skills in understanding and clarifying requirements and your general
@@ -14,12 +14,12 @@ At the end of the day - the teams drop their bikes off at CitiBike locations and
 come around and pick them up and bring them back home.
 
 
-#### Requirements:
+### Requirements:
 The new functionality we want to build is a system that can interface with the CitiBike API
 and help the sales teams find citibike stations:
 
 
-### The system will have 2 modes of operations:
+#### The system will have 2 modes of operations:
 #### Morning mode:
 For each team - the system will accept Lat,Long coordinates of the center of their sales
 territory for that day. The system will then query the CitiBike API to determine the closest
@@ -36,19 +36,19 @@ seniority.
 
 
 #### The team van drivers should be assigned to the station that has the most team members assigned to so that he can begin his pickup route.
-● We need to be able to run the system in both modes multiple times a day with the
+- We need to be able to run the system in both modes multiple times a day with the
 CitBike data current to when it was run (if not in test mode as specified below)
-● User interface can be a simple console application
-● In morning mode if there are no stations that have the number of bikes required
+- User interface can be a simple console application
+- In morning mode if there are no stations that have the number of bikes required
 for a team - print a notification
-● Deconflicting teams at stations (if team 1 and 2 are assigned to the same station)
+0 Deconflicting teams at stations (if team 1 and 2 are assigned to the same station)
 is not required at this time
-● Distance is defined as point to point “as the crow flies” irrespective of
+- Distance is defined as point to point “as the crow flies” irrespective of
 geographical features such as rivers etc…
-● Your code should have the capability to switch CitiBike data sources between
+- Your code should have the capability to switch CitiBike data sources between
 Live and Test data.
-● Multithreading would be nice but not required
-● Inputs should be validated and when in error halt execution and provide a
+- Multithreading would be nice but not required
+- Inputs should be validated and when in error halt execution and provide a
 detailed description of the error
-● The input file with all of the agents (Teams.csv) and teams will always be
+- The input file with all of the agents (Teams.csv) and teams will always be
 ordered by agent id
